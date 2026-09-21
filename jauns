@@ -1,1 +1,24 @@
-Izveidotais fails
+# Dienas darbs
+(https://imgs.search.brave.com/WrDj1OWTQp-7_U0Jgjaxv57cybU9Rc6meMT0MppoNiY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9wcHMu/bHYvd3AtY29udGVu/dC91cGxvYWRzLzIw/MjAvMDYvSU1HXzIw/MjAwMjI1XzE3MzA1/MF8wYS1zY2FsZWQt/NTAweDUwMC5qcGc)
+int izvele;
+		do {
+			System.out.println("\n--- IZVĒLNE ---");
+			System.out.println("1 - Ievadīt studentus un vērtējumus");
+			System.out.println("2 - Ievadīt kritēriju svarus");
+			System.out.println("3 - Parādīt gala vērtējumus");
+			System.out.println("5 - Beigt");
+			System.out.print("Izvēle: ");
+			while (!x.hasNextInt()) {
+				System.out.print("Kļūda! Ievadi skaitli no 1 līdz 4: ");
+				x.next();
+			}
+			izvele = x.nextInt();
+			x.nextLine();
+			switch (izvele)
+### **Darāmo darbu saraksts**
+- [x] Uzsākta lokālā projekta versionēšana
+- [x] Izveido GitHub kontu
+- [x] Izveidota GitHub krātuve (repo)
+- [ ] Papildinātās GitHub krātuves saturs iegūts (pull) lokālai lietošanai
+- [ ] Projektā ieviests jauns zars (branch)
+- [ ] Sapuldināti zari un novērst merge konflikts
